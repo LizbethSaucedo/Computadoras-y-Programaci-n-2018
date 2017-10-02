@@ -1,3 +1,5 @@
+	
+git rm Tarea8.1.cpp
 #include<stdio.h>
 
 int main(int argc, char** argv) {
