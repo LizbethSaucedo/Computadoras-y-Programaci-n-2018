@@ -1,0 +1,31 @@
+#include<stdio.h>
+ int main(int argc, char *argv[])
+ {
+ 	int v1=8;
+ 	int v2=5;
+ 	int resultado=0;
+ 	
+ //igual a ?
+ 	resultado=v1 == v2;
+ 	printf("%d==%d=%d\n",v1,v2,resultado);
+ 	
+ //menor igual que?
+ 	resultado=v1 <= v2;
+ 	printf("%d<=%d=%d\n",v1,v2,resultado);
+ 	
+ //mayor que?
+ 	resultado=v1 > v2;
+ 	printf("%d>%d=%d\n",v1,v2,resultado);
+ 	
+ //menor que?
+ 	resultado=v1 < v2;
+ 	printf("%d<%d=%d\n",v1,v2,resultado);
+ 	
+ //diferente de?
+    resultado=v1 != v2;
+	printf("%d!=%d=%d\n",v1,v2,resultado);
+	
+	return 0;
+	
+		
+ }
